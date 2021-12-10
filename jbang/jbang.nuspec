@@ -4,17 +4,17 @@
   <metadata>
     <!-- required -->
     <id>jbang</id>
-    <version>0.80.2</version>
+    <version>0.84.1</version>
     <authors>Max Rydahl Andersen</authors>
     <description>Unleash the power of Java.
 Use `jbang` to run java, jar, jsh or kt file(s) with automatic dependency fetching
 and immediate compilation and execution.
 </description>
     <!-- optional -->
-    <title>jbang</title>
+    <title>JBang</title>
     <projectUrl>https://jbang.dev</projectUrl>
     <copyright>2020 Max Rydahl Andersen</copyright>
-    <license type="expression">MIT</license>
+    <licenseUrl>https://github.com/jbangdev/jbang/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>jbang bash java shell scripting</tags>
     <summary>Unleash the power of Java</summary>
@@ -22,7 +22,7 @@ and immediate compilation and execution.
     <packageSourceUrl>https://github.com/jbangdev/chocolatey-bucket</packageSourceUrl>
     <docsUrl>https://jbang.dev/documentation</docsUrl>
     <bugTrackerUrl>https://github.com/jbangdev/jbang/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/jbangdev/jbang/releases/tag/v0.80.2</releaseNotes>
+    <releaseNotes>https://github.com/jbangdev/jbang/releases/tag/v0.84.1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
