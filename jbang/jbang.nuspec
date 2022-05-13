@@ -4,7 +4,7 @@
   <metadata>
     <!-- required -->
     <id>jbang</id>
-    <version>0.93.0</version>
+    <version>0.94.0</version>
     <authors>Max Rydahl Andersen</authors>
     <description>Unleash the power of Java.
 Use `jbang` to run java, jar, jsh or kt file(s) with automatic dependency fetching
@@ -22,7 +22,7 @@ and immediate compilation and execution.
     <packageSourceUrl>https://github.com/jbangdev/chocolatey-bucket</packageSourceUrl>
     <docsUrl>https://jbang.dev/documentation</docsUrl>
     <bugTrackerUrl>https://github.com/jbangdev/jbang/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/jbangdev/jbang/releases/tag/v0.93.0</releaseNotes>
+    <releaseNotes>https://github.com/jbangdev/jbang/releases/tag/v0.94.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
