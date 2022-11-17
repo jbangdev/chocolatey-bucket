@@ -1,12 +1,12 @@
 $tools = Split-Path $MyInvocation.MyCommand.Definition
 $package = Split-Path $tools
-$app_home = Join-Path $package 'jbang-0.100.0'
+$app_home = Join-Path $package 'jbang-0.100.1'
 $app_bat = Join-Path $app_home 'bin/jbang.cmd'
 
 Install-ChocolateyZipPackage `
     -PackageName 'jbang' `
-    -Url 'https://github.com/jbangdev/jbang/releases/download/v0.100.0/jbang-0.100.0.zip' `
-    -Checksum '183355035e01f3dad8eacc5db18257aee11a88d3a390f64e3f0aae6a36239a3e' `
+    -Url 'https://github.com/jbangdev/jbang/releases/download/v0.100.1/jbang-0.100.1.zip' `
+    -Checksum 'a5b8f935f3aebe2901d9825cf32a6b9b3578493518d61aeb7b3a9f8df419be9c' `
     -ChecksumType 'sha256' `
     -UnzipLocation $package
 
