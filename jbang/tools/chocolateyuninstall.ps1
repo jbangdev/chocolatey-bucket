@@ -1,6 +1,6 @@
 $tools = Split-Path $MyInvocation.MyCommand.Definition
 $package = Split-Path $tools
-$app_home = Join-Path $package 'jbang-0.105.2'
+$app_home = Join-Path $package 'jbang-0.106.0'
 $app_bat = Join-Path $app_home 'bin/jbang.cmd'
 
 Uninstall-BinFile -Name 'jbang' -Path $app_bat
