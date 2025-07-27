@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generated with JReleaser 1.19.0 at 2025-07-11T13:44:36.248402Z -->
+<!-- Generated with JReleaser 1.19.0 at 2025-07-27T12:10:57.123427Z -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- required -->
     <id>jbang</id>
-    <version>0.127.18</version>
-    <authors>Max Rydahl Andersen</authors>
+    <version>0.128.2</version>
+    <authors>Max Rydahl Andersen,Tako Schotanus</authors>
     <description>Unleash the power of Java.
 Use `jbang` to run java, jar, jsh or kt file(s) with automatic dependency fetching
 and immediate compilation and execution.
@@ -14,7 +14,7 @@ and immediate compilation and execution.
     <!-- optional -->
     <title>JBang</title>
     <projectUrl>https://jbang.dev</projectUrl>
-    <copyright>2020 Max Rydahl Andersen</copyright>
+    <copyright>2020 Max Rydahl Andersen, Tako Schotanus</copyright>
     <licenseUrl>https://github.com/jbangdev/jbang/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>jbang bash java shell scripting</tags>
@@ -23,7 +23,7 @@ and immediate compilation and execution.
     <packageSourceUrl>https://github.com/jbangdev/chocolatey-bucket</packageSourceUrl>
     <docsUrl>https://jbang.dev/documentation</docsUrl>
     <bugTrackerUrl>https://github.com/jbangdev/jbang/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/jbangdev/jbang/releases/tag/v0.127.18</releaseNotes>
+    <releaseNotes>https://github.com/jbangdev/jbang/releases/tag/v0.128.2</releaseNotes>
     
   </metadata>
   <files>
