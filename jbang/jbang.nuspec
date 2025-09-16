@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generated with JReleaser 1.19.0 at 2025-09-10T00:50:20.073419Z -->
+<!-- Generated with JReleaser 1.19.0 at 2025-09-16T20:34:55.787692Z -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- required -->
     <id>jbang</id>
-    <version>0.130.0</version>
+    <version>0.131.0</version>
     <authors>Max Rydahl Andersen,Tako Schotanus</authors>
     <description>Unleash the power of Java.
 Use `jbang` to run java, jar, jsh or kt file(s) with automatic dependency fetching
@@ -23,7 +23,7 @@ and immediate compilation and execution.
     <packageSourceUrl>https://github.com/jbangdev/chocolatey-bucket</packageSourceUrl>
     <docsUrl>https://jbang.dev/documentation</docsUrl>
     <bugTrackerUrl>https://github.com/jbangdev/jbang/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/jbangdev/jbang/releases/tag/v0.130.0</releaseNotes>
+    <releaseNotes>https://github.com/jbangdev/jbang/releases/tag/v0.131.0</releaseNotes>
     
   </metadata>
   <files>
