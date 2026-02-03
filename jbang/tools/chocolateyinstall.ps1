@@ -1,13 +1,13 @@
-# Generated with JReleaser 1.19.0 at 2025-12-13T19:48:32.339123Z
+# Generated with JReleaser 1.19.0 at 2026-02-03T18:23:53.933137Z
 $tools = Split-Path $MyInvocation.MyCommand.Definition
 $package = Split-Path $tools
-$app_home = Join-Path $package 'jbang-0.135.1'
+$app_home = Join-Path $package 'jbang-0.136.0'
 $app_exe = Join-Path $app_home 'bin/jbang.cmd'
 
 Install-ChocolateyZipPackage `
     -PackageName 'jbang' `
-    -Url 'https://github.com/jbangdev/jbang/releases/download/v0.135.1/jbang-0.135.1.zip' `
-    -Checksum 'ca08772133ef712c1c115d228662fa69a3c693a2a8d521d6f5205f2b3a3f9616' `
+    -Url 'https://github.com/jbangdev/jbang/releases/download/v0.136.0/jbang-0.136.0.zip' `
+    -Checksum '545db931d079f5e758760286ec561dabfb4bfc5901b2e4615660d8b8552d1c5a' `
     -ChecksumType 'sha256' `
     -UnzipLocation $package
 
